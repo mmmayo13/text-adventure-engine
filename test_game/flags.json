@@ -1,0 +1,12 @@
+{
+    "conditions": [
+        {
+            "name": "portal_unlocked",
+            "setting": "False"
+        },
+        {
+            "name": "portal_entered",
+            "setting": "False"
+        }
+    ]
+}

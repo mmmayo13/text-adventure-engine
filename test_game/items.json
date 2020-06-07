@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "name": "a mirror",
+            "nickname": "mirror",
+            "description": "It is a handheld mirror of shoddy quality. But that sure is a million dollar smile.",
+            "location": 3
+        },
+        {
+            "name": "an interdimensional key",
+            "nickname": "key",
+            "description": "It's a key alright. But it sure is odd looking.",
+            "location": 5
+        }
+    ]
+}

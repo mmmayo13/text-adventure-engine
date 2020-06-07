@@ -1,0 +1,25 @@
+{
+    "characters": [
+        {
+            "name": "Randolph, the town drunk",
+            "nickname": "randolph",
+            "description": "He's a drunken vagrant. He has excellent handwriting.",
+            "speech": "*drunkenly* I think I need to find myself another drink. And maybe somewhere to relieve myself. And not necessarily in that order.",
+            "location": 2
+        },
+        {
+            "name": "a talking horse",
+            "nickname": "horse",
+            "description": "I'm not sure what you expect me to say. It's a talking horse.",
+            "speech": "I'm a talking horse. And I haven't got a thing to say...",
+            "location": 1
+        },
+        {
+            "name": "a portly child",
+            "nickname": "child",
+            "description": "Someone's parents should lock up the sweets.",
+            "speech": "I'm looking for candy. Also, there's an interdimensional portal in the basement of the saloon.",
+            "location": 5
+        }
+    ]
+}

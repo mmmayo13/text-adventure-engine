@@ -1,0 +1,56 @@
+{
+    "rooms": [
+        {
+            "id": 1,
+            "name": "Town Square",
+            "description": "You are standing in the town square. To the west is an old saloon. Looks like there could be trouble in there. To the east is a seedy hotel. A sturdy yet relatively short tree is in the middle of the square.",
+            "neighbors": {
+                "w": 2,
+                "e": 3,
+                "u": 6
+            }
+        },
+        {
+            "id": 2,
+            "name": "The Old Saloon",
+            "description": "You are standing in a filthy saloon. It's eerily almost empty, but still feels like trouble. This doesn't look like a town that waits til after work to start drinking. Something doesn't seem right. There is a shaky looking staircase leading down to a basement. To the east is the town square.",
+            "neighbors": {
+                "e": 1,
+                "d": 4
+            }
+        },
+        {
+            "id": 3,
+            "name": "The No-Tell Hotel",
+            "description": "You are in the lobby of a seedy hotel. It doesn't look like it has many guests. There doesn't even seem to be anyone working here. There are stairs leading up to the second floor. To the west is the town square.",
+            "neighbors": {
+                "w": 1,
+                "u": 5
+            }
+        },
+        {
+            "id": 4,
+            "name": "The Old Saloon Basement",
+            "description": "You are in the basement of the old saloon. There is an odd mechanical monstrosity in the corner of the room, with a sign upon it that reads 'Interdimensional Portal.' That seems like an odd thing to keep in the basement of a saloon. A shaky looking staircase leads up to the main floor of the saloon.",
+            "neighbors": {
+                "u": 2
+            }
+        },
+        {
+            "id": 5,
+            "name": "Second Floor of The No-Tell Hotel",
+            "description": "You are on the second floor of The No-Tell Hotel. A long hall has several rooms off of it, I would assume none of which are occupied. Stairs lead down to the lobby.",
+            "neighbors": {
+                "d": 3
+            }
+        },
+        {
+            "id": 6,
+            "name": "Atop a Tree",
+            "description": "You are atop a realtively short tree. From this vantage point you can see almost nothing more than you could see while standing on the ground. It appears the energy you spent climbing it was in vain.",
+            "neighbors": {
+                "d": 1
+            }
+        }
+    ]
+}
