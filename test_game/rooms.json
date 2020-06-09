@@ -47,7 +47,7 @@
         {
             "id": 6,
             "name": "Atop a Tree",
-            "description": "You are atop a realtively short tree. From this vantage point you can see almost nothing more than you could see while standing on the ground. It appears the energy you spent climbing it was in vain.",
+            "description": "You are atop a relatively short tree. From this vantage point you can see almost nothing more than you could see while standing on the ground. It appears the energy you spent climbing it was in vain.",
             "neighbors": {
                 "d": 1
             }

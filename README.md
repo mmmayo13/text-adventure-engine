@@ -12,7 +12,7 @@ To play the example game (or any game, really):
 
 ![](https://i.ibb.co/RY1yvVm/text-adventure-play.jpg)
 
-To create a game, a new folder should include these file:
+To create a game, a new folder should include the following files
 
 * `rooms.json` - The locations in the game. A single room entry looks like this:
 
@@ -57,9 +57,7 @@ Basic actions are coded in the game (move, get, drop, inventory, etc.), and some
 
 Currently, parsing of user input consists of removing stop words, tokenzing what input is left, and returning the first 2 tokens to be interpreted for gameplay. This means that commands are limited to word pairs at this point ('get lamp', 'move east'), but plans to extend this exist.
 
-The built-in Python module [`cmd`](https://docs.python.org/3/library/cmd.html) is used for command line interpretation, making this easily extensible:
-
-
+The built-in Python module [`cmd`](https://docs.python.org/3/library/cmd.html) is used for command line interpretation, making this easily extensible.
 
 No modules outside of the standard Python library are required.
 
